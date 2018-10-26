@@ -1,5 +1,5 @@
 
-# Vectors and Matrices in Numpy 
+# Vectors and Matrices in Numpy - Lab
 
 ## Introduction
 
@@ -11,7 +11,7 @@ You will be able to:
 * Check the shape of vectors and matrices
 * Access and manipulate individual scalar components of a matrix. 
 
-### 1. Define two arrays A (4x3) and B (3x2) 
+## 1. Define two arrays A (4x3) and B (3x2) 
 ```
 A = 1402, 191 
     1371, 821 
@@ -20,7 +20,8 @@ A = 1402, 191
     
 B = 1, 2, 3
     4, 5, 6
-```
+    ```
+
 
 ```python
 # Code Here
@@ -36,7 +37,7 @@ B = 1, 2, 3
      [4 5 6]]
 
 
-### 2. Print the dimensions of A and B 
+## 2. Print the dimensions of A and B 
 
 
 ```python
