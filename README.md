@@ -1,5 +1,5 @@
 
-# Vectors and Matrices in Numpy 
+# Vectors and Matrices in Numpy - Lab
 
 ## Introduction
 
@@ -54,7 +54,7 @@ B
 
 
 
-### 2. Print the dimensions of A and B 
+## 2. Print the dimensions of A and B 
 
 
 ```python
