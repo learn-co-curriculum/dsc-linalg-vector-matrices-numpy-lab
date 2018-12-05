@@ -11,7 +11,7 @@ You will be able to:
 * Check the shape of vectors and matrices
 * Access and manipulate individual scalar components of a matrix. 
 
-### 1. Define two arrays A (4x3) and B (3x2) 
+### 1. Define two arrays A (4x2) and B (2x3) 
 ```
 A = 1402, 191 
     1371, 821 
@@ -92,6 +92,7 @@ print(A[3,0])
 
 
 ```python
+import random
 M = np.zeros((3,3))
 print ('before random data:\n',M)
 
@@ -107,9 +108,9 @@ print ('\nafter random data:\n',M)
      [0. 0. 0.]]
     
     after random data:
-     [[2. 7. 5.]
-     [7. 9. 3.]
-     [6. 5. 9.]]
+     [[7. 5. 1.]
+     [5. 7. 9.]
+     [3. 5. 5.]]
 
 
 ## 5. Turn above routine into a function.
@@ -139,10 +140,10 @@ print ('Final output\n\n', out)
 
     Final output
     
-     [[12.  4. 13.  8.]
-     [13.  5.  9.  9.]
-     [11. 11. 11. 17.]
-     [16. 14.  8. 10.]]
+     [[10.  4.  6. 15.]
+     [10.  4.  8. 15.]
+     [ 9. 12.  9. 13.]
+     [14. 12.  8.  7.]]
 
 
 ## Summary 
