@@ -11,7 +11,7 @@ You will be able to:
 * Check the shape of vectors and matrices
 * Access and manipulate individual scalar components of a matrix. 
 
-## 1. Define two arrays A (4x3) and B (3x2) 
+## 1. Define two arrays A (4x2) and B (2x3) 
 ```
 A = 1402, 191 
     1371, 821 
