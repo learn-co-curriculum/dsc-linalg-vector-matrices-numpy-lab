@@ -122,7 +122,7 @@ print ('\nafter random data:\n',M)
 
 ## 5. Turn the above routine into a function
 * Create two $(4 \times 4)$ zero valued matrices and fill with random data using the function
-* Add the matrices together in numpy 
+* Add the matrices together in Numpy 
 * Show the results
 
 
@@ -155,4 +155,4 @@ print ('Final output\n\n', out)
 
 ## Summary 
 
-In this lab, we saw how to create and manipulate vectors and matrices in numpy. We shall now move forward to learning more complex operations including dot products and inverses. 
+In this lab, we saw how to create and manipulate vectors and matrices in Numpy. We shall now move forward to learning more complex operations including dot products and inverses. 
