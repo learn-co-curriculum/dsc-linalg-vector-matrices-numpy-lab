@@ -115,14 +115,14 @@ print ('\nafter random data:\n',M)
      [0. 0. 0.]]
     
     after random data:
-     [[7. 5. 1.]
-     [5. 7. 9.]
-     [3. 5. 5.]]
+     [[7. 9. 1.]
+     [8. 1. 9.]
+     [3. 3. 3.]]
 
 
 ## 5. Turn the above routine into a function
 * Create two $(4 \times 4)$ zero valued matrices and fill with random data using the function
-* Add the matrices together in Numpy 
+* Add the matrices together in numpy 
 * Show the results
 
 
@@ -147,12 +147,12 @@ print ('Final output\n\n', out)
 
     Final output
     
-     [[10.  4.  6. 15.]
-     [10.  4.  8. 15.]
-     [ 9. 12.  9. 13.]
-     [14. 12.  8.  7.]]
+     [[ 5. 10.  8.  8.]
+     [ 5.  7.  9. 13.]
+     [ 8. 10. 18.  7.]
+     [ 9. 14. 12. 11.]]
 
 
 ## Summary 
 
-In this lab, we saw how to create and manipulate vectors and matrices in Numpy. We shall now move forward to learning more complex operations including dot products and inverses. 
+In this lab, we saw how to create and manipulate vectors and matrices in numpy. We shall now move forward to learning more complex operations including dot products and inverses. 
