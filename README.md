@@ -64,8 +64,6 @@ print ('B=\n', B)
      [4 5 6]]
 
 
-## 2. Print the dimensions of $A$ and $B$ 
-
 
 ```python
 # __SOLUTION__ 
@@ -80,9 +78,22 @@ B
 
 
 
+## 2. Print the dimensions of $A$ and $B$ 
+
 
 ```python
 # Code Here
+```
+
+    Shape of A: (4, 2)
+    Shape of B: (2, 3)
+
+
+
+```python
+# __SOLUTION__ 
+print('Shape of A:',A.shape)
+print('Shape of B:',B.shape)
 ```
 
     Shape of A: (4, 2)
@@ -97,17 +108,6 @@ B
 
 
 ```python
-# __SOLUTION__ 
-print('Shape of A:',A.shape)
-print('Shape of B:',B.shape)
-```
-
-    Shape of A: (4, 2)
-    Shape of B: (2, 3)
-
-
-
-```python
 # Code Here
 ```
 
@@ -116,10 +116,6 @@ print('Shape of B:',B.shape)
     1437
     147
 
-
-## 4. Write a routine to populate a matrix with random data
-* Create an $(3 \times 3)$ Numpy array with all zeros (use `np.zeros()`)
-* Access each location $(i,j)$ of this matrix and fill in random values between the range 1 and 10. 
 
 
 ```python
@@ -136,6 +132,10 @@ print(A[3,0])
     147
 
 
+## 4. Write a routine to populate a matrix with random data
+* Create an $(3 \times 3)$ Numpy array with all zeros (use `np.zeros()`)
+* Access each location $(i,j)$ of this matrix and fill in random values between the range 1 and 10. 
+
 
 ```python
 # Code Here (due to random data , your output might be different)
@@ -151,11 +151,6 @@ print(A[3,0])
      [7. 9. 3.]
      [6. 5. 9.]]
 
-
-## 5. Turn the above routine into a function
-* Create two $(4 \times 4)$ zero valued matrices and fill with random data using the function
-* Add the matrices together in numpy 
-* Show the results
 
 
 ```python
@@ -176,10 +171,15 @@ print ('\nafter random data:\n',M)
      [0. 0. 0.]]
     
     after random data:
-     [[7. 5. 1.]
-     [5. 7. 9.]
-     [3. 5. 5.]]
+     [[7. 9. 1.]
+     [8. 1. 9.]
+     [3. 3. 3.]]
 
+
+## 5. Turn the above routine into a function
+* Create two $(4 \times 4)$ zero valued matrices and fill with random data using the function
+* Add the matrices together in numpy 
+* Show the results
 
 
 ```python
@@ -193,10 +193,6 @@ print ('\nafter random data:\n',M)
      [11. 11. 11. 17.]
      [16. 14.  8. 10.]]
 
-
-## Summary 
-
-In this lab, we saw how to create and manipulate vectors and matrices in numpy. We shall now move forward to learning more complex operations including dot products and inverses. 
 
 
 ```python
@@ -221,8 +217,12 @@ print ('Final output\n\n', out)
 
     Final output
     
-     [[10.  4.  6. 15.]
-     [10.  4.  8. 15.]
-     [ 9. 12.  9. 13.]
-     [14. 12.  8.  7.]]
+     [[ 5. 10.  8.  8.]
+     [ 5.  7.  9. 13.]
+     [ 8. 10. 18.  7.]
+     [ 9. 14. 12. 11.]]
 
+
+## Summary 
+
+In this lab, we saw how to create and manipulate vectors and matrices in numpy. We shall now move forward to learning more complex operations including dot products and inverses. 
