@@ -44,7 +44,41 @@ $
      [4 5 6]]
 
 
+
+```python
+# __SOLUTION__ 
+import numpy as np
+A = np.array([[1402, 191], [1371, 821], [949, 1437], [147, 1448]])
+B = np.array([[1, 2, 3], [4, 5, 6]])
+print ('A=\n', A)
+print ('B=\n', B)
+```
+
+    A=
+     [[1402  191]
+     [1371  821]
+     [ 949 1437]
+     [ 147 1448]]
+    B=
+     [[1 2 3]
+     [4 5 6]]
+
+
 ## 2. Print the dimensions of $A$ and $B$ 
+
+
+```python
+# __SOLUTION__ 
+B
+```
+
+
+
+
+    array([[1, 2, 3],
+           [4, 5, 6]])
+
+
 
 
 ```python
@@ -63,6 +97,17 @@ $
 
 
 ```python
+# __SOLUTION__ 
+print('Shape of A:',A.shape)
+print('Shape of B:',B.shape)
+```
+
+    Shape of A: (4, 2)
+    Shape of B: (2, 3)
+
+
+
+```python
 # Code Here
 ```
 
@@ -75,6 +120,21 @@ $
 ## 4. Write a routine to populate a matrix with random data
 * Create an $(3 \times 3)$ Numpy array with all zeros (use `np.zeros()`)
 * Access each location $(i,j)$ of this matrix and fill in random values between the range 1 and 10. 
+
+
+```python
+# __SOLUTION__ 
+print(A[0,0])
+print(A[0,1])
+print(A[2,1])
+print(A[3,0])
+```
+
+    1402
+    191
+    1437
+    147
+
 
 
 ```python
@@ -99,6 +159,30 @@ $
 
 
 ```python
+# __SOLUTION__ 
+import random
+M = np.zeros((3,3))
+print ('before random data:\n',M)
+
+for x in range(0, M.shape[0]):
+    for y in range(0, M.shape[1]):
+        M[x][y] = random.randrange(1, 10) 
+print ('\nafter random data:\n',M)
+```
+
+    before random data:
+     [[0. 0. 0.]
+     [0. 0. 0.]
+     [0. 0. 0.]]
+    
+    after random data:
+     [[7. 5. 1.]
+     [5. 7. 9.]
+     [3. 5. 5.]]
+
+
+
+```python
 # Code Here (due to random data , your output might be different)
 ```
 
@@ -113,3 +197,32 @@ $
 ## Summary 
 
 In this lab, we saw how to create and manipulate vectors and matrices in numpy. We shall now move forward to learning more complex operations including dot products and inverses. 
+
+
+```python
+# __SOLUTION__ 
+def fill(matrix):
+
+    for x in range(0, matrix.shape[0]):
+        for y in range(0, matrix.shape[1]):
+            matrix[x][y] = random.randrange(1, 10)
+    
+    return matrix
+
+M1 = np.zeros((4,4))
+M2 = np.zeros((4,4))
+
+M1_filled = fill(M1)
+M2_filled = fill(M2)
+out = M1_filled + M2_filled
+
+print ('Final output\n\n', out)
+```
+
+    Final output
+    
+     [[10.  4.  6. 15.]
+     [10.  4.  8. 15.]
+     [ 9. 12.  9. 13.]
+     [14. 12.  8.  7.]]
+
