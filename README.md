@@ -93,7 +93,7 @@ $
 
 
 ## 5. Turn the above routine into a function
-* Create two $(4 \times 4)$ zero valued matrices and fill with random data using the function
+* Create two $(4 \times 4)$ zero-valued matrices and fill with random data using the function
 * Add the matrices together in numpy 
 * Show the results
 
